@@ -12,6 +12,7 @@ public class QuickSortAlgo {
 	private void quickSort(int[] A, int low, int high) {
 		if (low < high+1) {
 			int p = partition(A, low, high);
+			System.out.println(p);
 			quickSort(A, low, p-1);
 			quickSort(A, p+1, high);
 		}
