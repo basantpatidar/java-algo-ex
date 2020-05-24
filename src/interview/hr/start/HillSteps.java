@@ -30,7 +30,6 @@ public class HillSteps {
       
         String s = "UDDDUDUUUUDUUDDDDDUDDUUU";
 
-//        int result = 
         		HillSteps.countingValleys(8, s);
 
         
