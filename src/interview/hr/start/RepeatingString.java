@@ -26,7 +26,6 @@ public class RepeatingString {
 
     public static void main(String[] args) throws IOException {
 
-//        long result = 
     	long range = 1000000000000L;
         		repeatedString("a", range);
 
