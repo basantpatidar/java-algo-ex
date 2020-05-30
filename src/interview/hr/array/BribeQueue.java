@@ -11,8 +11,7 @@ public class BribeQueue {
                 return; 
             }
         }
-               
-        //now we just need to count number of Swaps
+         
         int swaps=0;
         for(int i=0;i< q.length;i++){
             for(int j=i+1;j<q.length;j++){
