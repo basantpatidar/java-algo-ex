@@ -10,13 +10,14 @@ public class BubbleSort {
 	    	    for (int j = 0; j < n - 1; j++) {
 	    	        // Swap adjacent elements if they are in decreasing order
 	    	        if (a[j] > a[j + 1]) {
-	    	            swap(a[j], a[j + 1]);
+	    	            swap(a[j], a[j + 1], a);
 	    	        }
 	    	    }
 	    	}
 	    }
-	    public int[] swap(int a, int a2) {
-	    	return 0;
+	    public static int[] swap(int a, int a2, int[] b) {
+	    	
+	    	return b;
 	    }
 
 	    public static void main(String[] args) {
